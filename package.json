@@ -1,0 +1,24 @@
+{
+  "name": "mibici-back",
+  "version": "0.0.1",
+  "description": "mibici scrapper app",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iddar olivares <iddar@dbug.mx>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.2.7",
+    "node-fetch": "^2.6.0",
+    "object.pick": "^1.3.0"
+  }
+}
